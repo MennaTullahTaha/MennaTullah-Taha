@@ -156,7 +156,7 @@ Sign out module:
  
 Bugs: 
 
-https://imgur.com/a/UsG3sdg
+(https://imgur.com/a/UsG3sdg)
  
 Title: 
 	Selecting a birth date in year 2100 terminates Registration process. 
@@ -180,7 +180,7 @@ Network:
 Internet connected. 	
 Screenshot:
  
- https://i.imgur.com/3oyNDgz.jpg
+ (https://i.imgur.com/3oyNDgz.jpg)
  
 Title: 
 	Error message: chrome.exe has stopped appears every time the application is opened even though chrome isn’t open.   
@@ -199,7 +199,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://i.imgur.com/9uPXrZ4.jpg
+(https://i.imgur.com/9uPXrZ4.jpg)
  
 Title: 
 	Blog posts don’t open even though internet connection is good.    
@@ -219,7 +219,7 @@ Network:
 Internet connected. 
 Screen Shot: 
 
-https://i.imgur.com/O1U2Rfr.jpg
+(https://i.imgur.com/O1U2Rfr.jpg)
  
 Title: 
 	Application crashes when setting Diary date to 1900.    
@@ -240,7 +240,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://i.imgur.com/UvyYW3I.jpg
+(https://i.imgur.com/UvyYW3I.jpg)
  
 Title: 
 	Clicking on community from the menu produces an empty page even though internet connection is well.    
@@ -261,7 +261,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://i.imgur.com/7ykXtaP.jpg
+(https://i.imgur.com/7ykXtaP.jpg)
  
 Title: 
 	Privacy policy doesn’t load  even though there’s internet connection  
