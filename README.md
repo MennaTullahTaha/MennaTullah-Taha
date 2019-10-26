@@ -1,10 +1,12 @@
 # MennaTullah-Taha
 InstaBug exam
 My fitness pal test plan: 
+
 Registration Module: 
 1.	Verify that opening the application for the first time makes you choose to either sign up or sign in. (Medium)
 2.	Verify that sign up allows to either connect using an application or sign up using an email. (Medium)
 3.	Verify that under armour account could be used to log in with. (Medium)
+
 Registration using email:
 1.	Verify that User can select one goal to work on. (High)
 2.	Verify that selecting an option navigates to the next page. (high)
@@ -34,12 +36,14 @@ Registration using email:
 a.	Verify that clicking the verification button verifies the user. (high)
 26.	Verify that user can’t receive latest news and offers unless he checks the check box during registration. (high)
 27.	Verify that user can display calories in kilo joules. (low)
+
 Registration using facebook. 
 1.	Verify that clicking on continue with facebook opens facebook. (high) 
 a.	Verify that if user is logged out of facebook then he should log in. (high)
 2.	Verify that a list with what fitness pal receives from facebook would appear to the user. (high)
 a.	Verify that user can edit the list of information that facebook receives. (high)
-(All the steps in registration with email should be checked here) 
+(All the steps in registration with email should be checked here)
+
 Diary Module: 
 1.	Verify that you can select the day that you want to insert food intake in (Medium)
 2.	Verify that you can display the calories consumed and calories burnt (high)
@@ -287,4 +291,17 @@ Screen Shot:
 
 https://imgur.com/a/rIwAE0s
 
- 
+ Automation guide 
+Needed Libraries:
+1.	Selenium
+2.	TestNG
+3.	Apache apoi 
+Steps:
+1.	Open project in eclipse 
+2.	Load the libraries 
+3.	Open testng .xml and run the project while standing on this page so it would run on parallel pages. 
+Notes: 
+1.	I loaded test data from excel files so it loads extra nulls in the end that I couldn’t get rid of so the last test cases with nulls would fail 
+2.	The excel sheet has a column in the end with the expected result which I assert to make sure it’s met. 
+3.	In facebook there’s a field that appears once you enter your email in correct format to re-enter the email, I considered doing test cases for it however all the negative test cases for the main field couldn’t be done because the second field doesn’t appear unless the first field appears. 
+
