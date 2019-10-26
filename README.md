@@ -165,13 +165,21 @@ Priority:
 Severity:
 	Low 
 Steps to reproduce: 
+
 1-	Download fitness pal application from the store. 
+
 2-	Click on sign up. 
+
 3-	Select signing up using email. 
+
 4-	Select goal 
-5-	Select how active you are. 
+
+5-	Select how active you are.
+
 6-	Select gender 
-7-	Select birth date to be 1 may in 2100. 
+
+7-	Select birth date to be 1 may in 2100.
+
 Expected result: an error message appears telling the user he can’t put a future date
 Actual result: Error: sorry, we are not able to process your registration at this time and user is directed back to choose whether to sign up or sign in. 
 Affected Devices: 
@@ -208,9 +216,13 @@ Priority:
 Severity:
 	Medium 
 Steps to reproduce: 
+
 1-	Open my fitness pal
+
 2-	Log in the application 
+
 3-	Click on a Blog post 
+
 Expected result: Blog post would load or an error message saying there’s no internet connection
 Actual result: Error message: loading icon keeps on loading non stop 
 Affected Devices: 
@@ -228,10 +240,15 @@ Priority:
 Severity:
 	low 
 Steps to reproduce: 
+
 1-	Open my fitness pal
+
 2-	Log in the application 
-3-	Click on Diary 
+
+3-	Click on Diary
+
 4-	Replace today with October 1900
+
 Expected result: a message appears saying maximum year is 2020
 Actual result: Application crashes  
 Affected Devices: 
@@ -249,10 +266,15 @@ Priority:
 Severity:
 	Medium 
 Steps to reproduce: 
+
 1-	Open my fitness pal
+
 2-	Log in the application 
-3-	Click on the menu on the top left 
+
+3-	Click on the menu on the top left
+
 4-	Click on community
+
 Expected result: community would load or an error message saying there’s no internet connection
 Actual result: Error message: loading icon keeps on loading non stop 
 Affected Devices: 
@@ -270,17 +292,29 @@ Priority:
 Severity:
 	Medium 
 Steps to reproduce: 
+
 1-	Open my fitness pal
+
 2-	Click on sign up 
+
 3-	Select lose weight
+
 4-	Select not very active
+
 5-	Select valid gender
+
 6-	Select valid birthdate
+
 7-	Enter valid height
+
 8-	Enter valid current weight 
+
 9-	Set valid goal weight 
+
 10-	Select weekly goal 
+
 11-	Click on privacy policy
+
 Expected result: privacy policy would load or an error message saying there’s no internet connection
 Actual result: Error message: loading icon keeps on loading non stop 
 Affected Devices: 
@@ -293,15 +327,26 @@ Screen Shot:
 
  Automation guide 
 Needed Libraries:
+
 1.	Selenium
+
 2.	TestNG
-3.	Apache apoi 
+
+3.	Apache apoi
+
 Steps:
+
 1.	Open project in eclipse 
+
 2.	Load the libraries 
+
 3.	Open testng .xml and run the project while standing on this page so it would run on parallel pages. 
+
 Notes: 
+
 1.	I loaded test data from excel files so it loads extra nulls in the end that I couldn’t get rid of so the last test cases with nulls would fail 
+
 2.	The excel sheet has a column in the end with the expected result which I assert to make sure it’s met. 
+
 3.	In facebook there’s a field that appears once you enter your email in correct format to re-enter the email, I considered doing test cases for it however all the negative test cases for the main field couldn’t be done because the second field doesn’t appear unless the first field appears. 
 
