@@ -180,7 +180,7 @@ Network:
 Internet connected. 	
 Screenshot:
  
- https://imgur.com/a/9oR6juX
+ https://i.imgur.com/3oyNDgz.jpg
  
 Title: 
 	Error message: chrome.exe has stopped appears every time the application is opened even though chrome isn’t open.   
@@ -199,7 +199,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://imgur.com/a/L4wZoR4
+https://i.imgur.com/9uPXrZ4.jpg
  
 Title: 
 	Blog posts don’t open even though internet connection is good.    
@@ -219,7 +219,7 @@ Network:
 Internet connected. 
 Screen Shot: 
 
-https://imgur.com/a/x5fZlY0
+https://i.imgur.com/O1U2Rfr.jpg
  
 Title: 
 	Application crashes when setting Diary date to 1900.    
@@ -240,7 +240,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://imgur.com/a/LcHHIzW
+https://i.imgur.com/UvyYW3I.jpg
  
 Title: 
 	Clicking on community from the menu produces an empty page even though internet connection is well.    
@@ -261,7 +261,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://imgur.com/a/YmPjaVL
+https://i.imgur.com/7ykXtaP.jpg
  
 Title: 
 	Privacy policy doesn’t load  even though there’s internet connection  
@@ -289,7 +289,7 @@ Network:
 Internet connected. 
 Screen Shot:
 
-https://imgur.com/a/rIwAE0s
+https://i.imgur.com/7fnQp7s.jpg
 
  Automation guide 
 Needed Libraries:
