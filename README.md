@@ -159,11 +159,17 @@ Bugs:
 ![one](https://imgur.com/a/UsG3sdg)
  
 Title: 
+
 	Selecting a birth date in year 2100 terminates Registration process. 
+	
 Priority:
+
 	Low 
+	
 Severity:
+
 	Low 
+	
 Steps to reproduce: 
 
 1-	Download fitness pal application from the store. 
@@ -181,40 +187,67 @@ Steps to reproduce:
 7-	Select birth date to be 1 may in 2100.
 
 Expected result: an error message appears telling the user he can’t put a future date
+
 Actual result: Error: sorry, we are not able to process your registration at this time and user is directed back to choose whether to sign up or sign in. 
-Affected Devices: 
+
+Affected Devices:
+
 Samsung s9+ 
+
 Network:
-Internet connected. 	
+
+Internet connected.
+
 Screenshot:
  
  ![two](https://i.imgur.com/3oyNDgz.jpg)
  
 Title: 
-	Error message: chrome.exe has stopped appears every time the application is opened even though chrome isn’t open.   
+
+	Error message: chrome.exe has stopped appears every time the application is opened even though chrome isn’t open. 
+	
 Priority:
+
 	Medium 
+	
 Severity:
+
 	Medium 
+	
 Steps to reproduce: 
+
 1-	Open my fitness pal
-2-	Log in the application 
+
+2-	Log in the application
+
 Expected result: No error messages appear
-Actual result: Error message: chrome.exe has stopped appears even though chrome isn’t open.  
+
+Actual result: Error message: chrome.exe has stopped appears even though chrome isn’t open. 
+
 Affected Devices: 
-Samsung s9+ 
+
+Samsung s9+
+
 Network:
+
 Internet connected. 
+
 Screen Shot:
 
 ![three](https://i.imgur.com/9uPXrZ4.jpg)
  
-Title: 
-	Blog posts don’t open even though internet connection is good.    
+Title:
+
+	Blog posts don’t open even though internet connection is good. 
+	
 Priority:
+
 	Medium 
+	
 Severity:
+
 	Medium 
+	
 Steps to reproduce: 
 
 1-	Open my fitness pal
@@ -224,21 +257,33 @@ Steps to reproduce:
 3-	Click on a Blog post 
 
 Expected result: Blog post would load or an error message saying there’s no internet connection
+
 Actual result: Error message: loading icon keeps on loading non stop 
+
 Affected Devices: 
+
 Samsung s9+ 
+
 Network:
+
 Internet connected. 
+
 Screen Shot: 
 
 ![four](https://i.imgur.com/O1U2Rfr.jpg)
  
 Title: 
-	Application crashes when setting Diary date to 1900.    
+
+	Application crashes when setting Diary date to 1900. 
+	
 Priority:
+
 	low 
+	
 Severity:
+
 	low 
+	
 Steps to reproduce: 
 
 1-	Open my fitness pal
@@ -250,21 +295,32 @@ Steps to reproduce:
 4-	Replace today with October 1900
 
 Expected result: a message appears saying maximum year is 2020
+
 Actual result: Application crashes  
+
 Affected Devices: 
+
 Samsung s9+ 
+
 Network:
+
 Internet connected. 
+
 Screen Shot:
 
 ![five](https://i.imgur.com/UvyYW3I.jpg)
  
 Title: 
-	Clicking on community from the menu produces an empty page even though internet connection is well.    
+	Clicking on community from the menu produces an empty page even though internet connection is well.
+	
 Priority:
+
 	Medium 
+	
 Severity:
+
 	Medium 
+	
 Steps to reproduce: 
 
 1-	Open my fitness pal
@@ -276,22 +332,35 @@ Steps to reproduce:
 4-	Click on community
 
 Expected result: community would load or an error message saying there’s no internet connection
+
 Actual result: Error message: loading icon keeps on loading non stop 
+
 Affected Devices: 
+
 Samsung s9+ 
+
 Network:
-Internet connected. 
+
+Internet connected.
+
 Screen Shot:
 
 ![six](https://i.imgur.com/7ykXtaP.jpg)
  
 Title: 
-	Privacy policy doesn’t load  even though there’s internet connection  
+
+	Privacy policy doesn’t load  even though there’s internet connection 
+	
 Priority:
+
 	Medium 
+	
 Severity:
+
 	Medium 
+	
 Steps to reproduce: 
+
 
 1-	Open my fitness pal
 
@@ -316,16 +385,23 @@ Steps to reproduce:
 11-	Click on privacy policy
 
 Expected result: privacy policy would load or an error message saying there’s no internet connection
+
 Actual result: Error message: loading icon keeps on loading non stop 
+
 Affected Devices: 
+
 Samsung s9+ 
+
 Network:
+
 Internet connected. 
+
 Screen Shot:
 
 ![seven](https://i.imgur.com/7fnQp7s.jpg)
 
  Automation guide 
+ 
 Needed Libraries:
 
 1.	Selenium
