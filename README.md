@@ -63,11 +63,11 @@ Registration using email:
 
 25.	Verify that once registration is done user receives email to verify email. (high)
 
-a.	Verify that clicking the verification button verifies the user. (high)
+26.	Verify that clicking the verification button verifies the user. (high)
 
-26.	Verify that user can’t receive latest news and offers unless he checks the check box during registration. (high)
+27.	Verify that user can’t receive latest news and offers unless he checks the check box during registration. (high)
 
-27.	Verify that user can display calories in kilo joules. (low)
+28.	Verify that user can display calories in kilo joules. (low)
 
 
 Registration using facebook. 
@@ -83,6 +83,7 @@ Registration using facebook.
 (All the steps in registration with email should be checked here)
 
 Diary Module: 
+
 1.	Verify that you can select the day that you want to insert food intake in (Medium)
 
 2.	Verify that you can display the calories consumed and calories burnt (high)
@@ -93,71 +94,71 @@ Diary Module:
 
 a.	ALL: 
 
-	i.	Verify that user must enable camera to scan barcode (high)
+	*	Verify that user must enable camera to scan barcode (high)
 
-	ii.	Verify that user must enable location to access restaurants (high)
+	*	Verify that user must enable location to access restaurants (high)
 
-	iii.	Verify that user can scan barcode upon clicking on its icon (high)
+	*	Verify that user can scan barcode upon clicking on its icon (high)
 
-	iv.	Verify that user can search for restaurants nearby (Medium)
+	*	Verify that user can search for restaurants nearby (Medium)
 
-	v.	Verify that user can search for food through entering a string (high)
+	*	Verify that user can search for food through entering a string (high)
 
-	vi.	Verify that user can create food through clicking on the plus icon (high)
+	*	Verify that user can create food through clicking on the plus icon (high)
 
-	vii.	Verify that user can select food from the search result. (high)
+	*	Verify that user can select food from the search result. (high)
 
-	viii.	Verify that upon selecting food from result search a page would appear displaying its details (high)
+	*	Verify that upon selecting food from result search a page would appear displaying its details (high)
 
-	ix.	Verify that user can enter number of servings in fraction (medium)
+	*	Verify that user can enter number of servings in fraction (medium)
 
-	x.	Verify that user can select the weighting measure (medium)
+	*	Verify that user can select the weighting measure (medium)
 
-	xi.	Verify that user can cancel and save (high)
+	*	Verify that user can cancel and save (high)
 
-	xii.	Verify nutrition facts are displayed correctly. (high)
+	*	Verify nutrition facts are displayed correctly. (high)
 
-	xiii.	Verify that you can report food (high)
+	*	Verify that you can report food (high)
 
-1.	Verify that a list of defined reasons appear for reporting (High)
+	*	Verify that a list of defined reasons appear for reporting (High)
 
-2.	Verify that user can select multiple reasons (medium)
+	*	Verify that user can select multiple reasons (medium)
 
 b.	Create a Recipe:
 
-	i.	Verify that you can import Recipe from website (high)
+	*	Verify that you can import Recipe from website (high)
 
-	ii.	Verify that you can enter Recipe (high)
+	*	Verify that you can enter Recipe (high)
 
-	iii.	Verify you can enter name of recipe (high)
+	*	Verify you can enter name of recipe (high)
 	
-	iv.	Verify you can add servings in numbers only (high) 
+	*	Verify you can add servings in numbers only (high) 
 
-	v.	Verify you can enter all ingredients in bulk (high)
+	*	Verify you can enter all ingredients in bulk (high)
 
-	vi.	Verify that you can’t save recipe unless food is verified and calculated in calories (High)
+	*	Verify that you can’t save recipe unless food is verified and calculated in calories (High)
 
-	vii.	Verify you can edit food added (high)
+	*	Verify you can edit food added (high)
 
-	viii.	Verify that once saved it appears under recipes tab to import it in meal (High)
+	*	Verify that once saved it appears under recipes tab to import it in meal (High)
 
-	ix.	Verify that once selected it appears under the selected meal (breakfast for example) (high)
+	*	Verify that once selected it appears under the selected meal (breakfast for example) (high)
 
-	x.	Verify that its calories would be subtracted from the goal (high)
+	*	Verify that its calories would be subtracted from the goal (high)
 
-	xi.	Verify you can import recipe in a meal (high)
+	*	Verify you can import recipe in a meal (high)
 
 c.	Create a meal:
 
-	i.	Verify when you click back a confirmation message appears (medium)
+	*	Verify when you click back a confirmation message appears (medium)
 
-	ii.	Verify you can add how to prepare your meal (high)
+	*	Verify you can add how to prepare your meal (high)
 
-	iii.	Verify you can cancel adding the meal. (High)
+	*	Verify you can cancel adding the meal. (High)
 
-	iv.	Verify you can import food from my foods. (high)
+	*	Verify you can import food from my foods. (high)
 
-	v.	Verify you can add multiple items into your meal. (high) 
+	*	Verify you can add multiple items into your meal. (high) 
 
 5.	Verify you can delete food imported under (breakfast, lunch,…) (high)
 
@@ -169,13 +170,13 @@ c.	Create a meal:
 
 9.	Verify you can create work out (high)
 
-	i.	Verify you can enter time duration (high)
+	*	Verify you can enter time duration (high)
 
-	ii.	Verify you can’t enter negative sign in time duration (high) 
+	*	Verify you can’t enter negative sign in time duration (high) 
 
-	iii.	Verify you can enter calories burnt (high)
+	*	Verify you can enter calories burnt (high)
 
-	iv.	Verify you can enter description for the new exercise (high)
+	*	Verify you can enter description for the new exercise (high)
 
 10.	Verify you can search for an exercise (high)
 
