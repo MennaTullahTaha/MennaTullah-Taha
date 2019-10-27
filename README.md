@@ -262,7 +262,7 @@ Sign out module:
  
 Bugs: 
 
-![one](blob:https://imgur.com/435c173d-be55-4ea5-8c8f-2a2f317be536)
+![one](https://imgur.com/uHboRxn.jpg)
  
 Title: 
 
