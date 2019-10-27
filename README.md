@@ -3,45 +3,83 @@ InstaBug exam
 My fitness pal test plan: 
 
 Registration Module: 
+
 1.	Verify that opening the application for the first time makes you choose to either sign up or sign in. (Medium)
+
 2.	Verify that sign up allows to either connect using an application or sign up using an email. (Medium)
+
 3.	Verify that under armour account could be used to log in with. (Medium)
 
+
 Registration using email:
+
 1.	Verify that User can select one goal to work on. (High)
+
 2.	Verify that selecting an option navigates to the next page. (high)
+
 3.	Verify that user can’t select a birth year before 1900 (low)
+
 4.	Verify that user can’t select a birth date after 2019. (low)
+
 5.	Verify that user can’t continue registration without selecting his goal. (high)
+
 6.	Verify that user can’t continue registration without selecting gender. (high)
+
 7.	Verify that user can’t continue registration without birth date. (high)
+
 8.	Verify that user can’t continue registration without entering height and weight. (high)
+
 9.	Verify that user can select whether to enter height in cms or feet. (Medium)
+
 10.	Verify that user can only enter numbers in height. (Medium)
+
 11.	Verify that user can’t enter more than one number in height when it’s in feet. (Medium)
+
 12.	Verify that user can’t enter more than 3 digits in height when its in cm. (Medium)
+
 13.	Verify that user can’t exceed 300 in height when its in cm and user can’t put value less than 100. (Medium)
+
 14.	Verify that if user selected goal to lose weight and entered goal weight same as the previous weight then a message should appear. (High)
+
 15.	Verify that next button navigates to the next page (High)
+
 16.	Verify that back button navigates to the previous page. (High)
+
 17.	Verify that you can’t sign up without filling any field. (High)
+
 18.	Verify that you can’t sign up without Entering Email. (High)
+
 19.	Verify that you can’t sign up without Entering password. (High)
+
 20.	Verify that you can’t register with a previously registered email. (High)
+
 21.	Verify that you can’t register with a password less than 6 characters. (High)
+
 22.	Verify that a list of suggested user name appears when user name is not available. (Medium)
+
 23.	Verify that user can’t proceed without agreeing terms and conditions. (high)
+
 24.	Verify that clicking on terms and conditions results in a page opening with terms and conditions. (high)
+
 25.	Verify that once registration is done user receives email to verify email. (high)
+
 a.	Verify that clicking the verification button verifies the user. (high)
+
 26.	Verify that user can’t receive latest news and offers unless he checks the check box during registration. (high)
+
 27.	Verify that user can display calories in kilo joules. (low)
 
+
 Registration using facebook. 
+
 1.	Verify that clicking on continue with facebook opens facebook. (high) 
-a.	Verify that if user is logged out of facebook then he should log in. (high)
-2.	Verify that a list with what fitness pal receives from facebook would appear to the user. (high)
-a.	Verify that user can edit the list of information that facebook receives. (high)
+
+2.	Verify that if user is logged out of facebook then he should log in. (high)
+
+3.	Verify that a list with what fitness pal receives from facebook would appear to the user. (high)
+
+4.	Verify that user can edit the list of information that facebook receives. (high)
+
 (All the steps in registration with email should be checked here)
 
 Diary Module: 
@@ -55,31 +93,31 @@ Diary Module:
 
 a.	ALL: 
 
-i.	Verify that user must enable camera to scan barcode (high)
+	i.	Verify that user must enable camera to scan barcode (high)
 
-ii.	Verify that user must enable location to access restaurants (high)
+	ii.	Verify that user must enable location to access restaurants (high)
 
-iii.	Verify that user can scan barcode upon clicking on its icon (high)
+	iii.	Verify that user can scan barcode upon clicking on its icon (high)
 
-iv.	Verify that user can search for restaurants nearby (Medium)
+	iv.	Verify that user can search for restaurants nearby (Medium)
 
-v.	Verify that user can search for food through entering a string (high)
+	v.	Verify that user can search for food through entering a string (high)
 
-vi.	Verify that user can create food through clicking on the plus icon (high)
+	vi.	Verify that user can create food through clicking on the plus icon (high)
 
-vii.	Verify that user can select food from the search result. (high)
+	vii.	Verify that user can select food from the search result. (high)
 
-viii.	Verify that upon selecting food from result search a page would appear displaying its details (high)
+	viii.	Verify that upon selecting food from result search a page would appear displaying its details (high)
 
-ix.	Verify that user can enter number of servings in fraction (medium)
+	ix.	Verify that user can enter number of servings in fraction (medium)
 
-x.	Verify that user can select the weighting measure (medium)
+	x.	Verify that user can select the weighting measure (medium)
 
-xi.	Verify that user can cancel and save (high)
+	xi.	Verify that user can cancel and save (high)
 
-xii.	Verify nutrition facts are displayed correctly. (high)
+	xii.	Verify nutrition facts are displayed correctly. (high)
 
-xiii.	Verify that you can report food (high)
+	xiii.	Verify that you can report food (high)
 
 1.	Verify that a list of defined reasons appear for reporting (High)
 
@@ -87,39 +125,39 @@ xiii.	Verify that you can report food (high)
 
 b.	Create a Recipe:
 
-i.	Verify that you can import Recipe from website (high)
+	i.	Verify that you can import Recipe from website (high)
 
-ii.	Verify that you can enter Recipe (high)
+	ii.	Verify that you can enter Recipe (high)
 
-iii.	Verify you can enter name of recipe (high)
+	iii.	Verify you can enter name of recipe (high)
+	
+	iv.	Verify you can add servings in numbers only (high) 
 
-iv.	Verify you can add servings in numbers only (high) 
+	v.	Verify you can enter all ingredients in bulk (high)
 
-v.	Verify you can enter all ingredients in bulk (high)
+	vi.	Verify that you can’t save recipe unless food is verified and calculated in calories (High)
 
-vi.	Verify that you can’t save recipe unless food is verified and calculated in calories (High)
+	vii.	Verify you can edit food added (high)
 
-vii.	Verify you can edit food added (high)
+	viii.	Verify that once saved it appears under recipes tab to import it in meal (High)
 
-viii.	Verify that once saved it appears under recipes tab to import it in meal (High)
+	ix.	Verify that once selected it appears under the selected meal (breakfast for example) (high)
 
-ix.	Verify that once selected it appears under the selected meal (breakfast for example) (high)
+	x.	Verify that its calories would be subtracted from the goal (high)
 
-x.	Verify that its calories would be subtracted from the goal (high)
-
-xi.	Verify you can import recipe in a meal (high)
+	xi.	Verify you can import recipe in a meal (high)
 
 c.	Create a meal:
 
-i.	Verify when you click back a confirmation message appears (medium)
+	i.	Verify when you click back a confirmation message appears (medium)
 
-ii.	Verify you can add how to prepare your meal (high)
+	ii.	Verify you can add how to prepare your meal (high)
 
-iii.	Verify you can cancel adding the meal. (High)
+	iii.	Verify you can cancel adding the meal. (High)
 
-iv.	Verify you can import food from my foods. (high)
+	iv.	Verify you can import food from my foods. (high)
 
-v.	Verify you can add multiple items into your meal. (high) 
+	v.	Verify you can add multiple items into your meal. (high) 
 
 5.	Verify you can delete food imported under (breakfast, lunch,…) (high)
 
@@ -129,43 +167,43 @@ v.	Verify you can add multiple items into your meal. (high)
 
 8.	Verify you can manually insert your work out (high)
 
-a.	Verify you can create work out (high)
+9.	Verify you can create work out (high)
 
-i.	Verify you can enter time duration (high)
+	i.	Verify you can enter time duration (high)
 
-ii.	Verify you can’t enter negative sign in time duration (high) 
+	ii.	Verify you can’t enter negative sign in time duration (high) 
 
-iii.	Verify you can enter calories burnt (high)
+	iii.	Verify you can enter calories burnt (high)
 
-iv.	Verify you can enter description for the new exercise (high)
+	iv.	Verify you can enter description for the new exercise (high)
 
-b.	Verify you can search for an exercise (high)
+10.	Verify you can search for an exercise (high)
 
-c.	Verify you can add an exercise to my exercises (high)
+11.	Verify you can add an exercise to my exercises (high)
 
-d.	Verify you can display list of exercises to select from. (high) 
+12.	Verify you can display list of exercises to select from. (high) 
 
-9.	Verify you can’t enter a value more than 12000 ml in water. (low)
+13.	Verify you can’t enter a value more than 12000 ml in water. (low)
 
-10.	Verify you can choose the unit of water into cups (medium)
+14.	Verify you can choose the unit of water into cups (medium)
 
-11.	Verify you can add notes to food and exercise (medium)
+15.	Verify you can add notes to food and exercise (medium)
 
-12.	Verify you can display your nutrition in chart (medium)
+16.	Verify you can display your nutrition in chart (medium)
 
-13.	Verify upon clicking save, the food would appear in the Diary. (high) 
+17.	Verify upon clicking save, the food would appear in the Diary. (high) 
 
-14.	Verify that analyzing the food is only available to premium users. (high)
+18.	Verify that analyzing the food is only available to premium users. (high)
 
-15.	Verify that show carbs is only available to premium users. (high)
+19.	Verify that show carbs is only available to premium users. (high)
 
-16.	Verify that show all foods in lists are only available to premium users. (high)
+20.	Verify that show all foods in lists are only available to premium users. (high)
 
-17.	Verify that if user clicks on complete diary and he hasn’t met his calories/exceeded his calories intake a message would appear notifying him (high)
+21.	Verify that if user clicks on complete diary and he hasn’t met his calories/exceeded his calories intake a message would appear notifying him (high)
 
-18.	Verify that if internet disconnects while saving a meal a message would appear notifying the user (high)
+22.	Verify that if internet disconnects while saving a meal a message would appear notifying the user (high)
 
-19.	Verify that user can delete entry (high)
+23.	Verify that user can delete entry (high)
 
 Home Module:
 
@@ -199,9 +237,9 @@ Home Module:
 
 15.	Verify that you can attach a pic to the progress (medium)
 
-a.	Verify that user can upload the pic (high)
+	a.	Verify that user can upload the pic (high)
 
-b.	Verify that user can select the pic from folders on the phone (high)
+	b.	Verify that user can select the pic from folders on the phone (high)
 
 Me Module: 
 
